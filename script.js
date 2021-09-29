@@ -2,7 +2,10 @@
 
 //First i need to display time and date in the jumbotron on page load
 //Using moment and the id of currentDay
+var today = moment();
 
+$("#currentDay").text(today.format("MMMM Do, YYYY"));
+$("#timeToday").text(today.format("h:mm a"));
 //Give button onclick that runs a function that saves the input text and
 //adds to local storage.
 
