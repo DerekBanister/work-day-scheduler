@@ -1,11 +1,9 @@
 # Work-Day Scheduler
 
-* 
+* This website is a scheduling application that allows you to input your daily schedule and save what you enter. The time slots update their color based on the time of the day, with green being the future times, red being the current, and grey being the past. The live time is also displayed at the top of the screen and upon page refresh/reload your schedule stays saved and intact.
 
-![]() 
-![]()
-![]()
-![]()
+![WorkDay1](assets/work1.PNG) 
+![WorkDay2](assets/work2.PNG)
 
 ## Built With
 
