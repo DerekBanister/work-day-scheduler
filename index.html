@@ -27,15 +27,15 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay"></p>
-      <p id="timeToday"></p>
+      <p class="currentDay"></p>
+      <p class="timeToday"></p>
     </header>
     <div class="container">
       <!--I need 9am-5pm (9 sections) with input boxes, text displaying time-->
       <!--And the save button on the right side of the input box-->
       <!--Can style one section then copy paste down using same formatting-->
       <!-- Timeblocks go here -->
-      <div id="hour9" class="input-group mb-3">
+      <div id="hour9" class="input-group mb-3 hourBlock">
         <div class="input-group-prepend row"><span class="input-group-text hour">09:00 AM</span></div>
         <textarea class="form-control textSave"></textarea>
         <div class="input-group-append">
@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <div id="hour10" class="input-group mb-3">
+      <div id="hour10" class="input-group mb-3 hourBlock">
         <div class="input-group-prepend row"><span class="input-group-text hour">10:00 AM</span></div>
         <textarea class="form-control textSave"></textarea>
         <div class="input-group-append">
@@ -51,7 +51,7 @@
         </div>
       </div>
 
-      <div id="hour11" class="input-group mb-3">
+      <div id="hour11" class="input-group mb-3 hourBlock">
         <div class="input-group-prepend row"><span class="input-group-text hour">11:00 AM</span></div>
           <textarea class="form-control textSave"></textarea>
           <div class="input-group-append">
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div id="hour12" class="input-group mb-3">
+        <div id="hour12" class="input-group mb-3 hourBlock">
           <div class="input-group-prepend row"><span class="input-group-text hour">12:00 PM</span></div>
           <textarea class="form-control textSave"></textarea>
           <div class="input-group-append">
@@ -67,7 +67,7 @@
           </div>
         </div>
 
-        <div id="hour1" class="input-group mb-3">
+        <div id="hour1" class="input-group mb-3 hourBlock">
           <div class="input-group-prepend row"><span class="input-group-text hour">01:00 PM</span></div>
           <textarea class="form-control textSave"></textarea>
           <div class="input-group-append">
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div id="hour2" class="input-group mb-3">
+        <div id="hour2" class="input-group mb-3 hourBlock">
           <div class="input-group-prepend row"><span class="input-group-text hour">02:00 PM</span></div>
           <textarea class="form-control textSave"></textarea>
           <div class="input-group-append">
@@ -83,7 +83,7 @@
           </div>
         </div>
 
-        <div id="hour3" class="input-group mb-3">
+        <div id="hour3" class="input-group mb-3 hourBlock">
           <div class="input-group-prepend row"> <span class="input-group-text hour">03:00 PM</span></div>
           <textarea class="form-control textSave"></textarea>
           <div class="input-group-append">
@@ -91,7 +91,7 @@
           </div>
         </div>
   
-        <div id="hour4" class="input-group mb-3">
+        <div id="hour4" class="input-group mb-3 hourBlock">
           <div class="input-group-prepend row"><span class="input-group-text hour">04:00 PM</span></div>
           <textarea class="form-control textSave"></textarea>
           <div class="input-group-append">
@@ -99,7 +99,7 @@
           </div>
         </div>
   
-        <div id="hour5" class="input-group mb-3">
+        <div id="hour5" class="input-group mb-3 hourBlock">
           <div class="input-group-prepend row"><span class="input-group-text hour">05:00 PM</span></div>
           <textarea class="form-control textSave"></textarea>
           <div class="input-group-append">

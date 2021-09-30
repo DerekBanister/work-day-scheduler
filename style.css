@@ -70,12 +70,12 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
-#currentDay {
+.currentDay {
   color: #06AED5;
   font-size: 25px;
   font-weight: bold;
 }
-#timeToday {
+.timeToday {
   color: #06AED5;
   font-size: 25px;
   font-weight: bold;
