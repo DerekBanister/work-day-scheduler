@@ -4,6 +4,7 @@
 
 ![WorkDay1](assets/work1.PNG) 
 ![WorkDay2](assets/work2.PNG)
+![WorkDayGif](assets/workdaygif.gif)
 
 ## Built With
 
